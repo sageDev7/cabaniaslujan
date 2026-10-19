@@ -1,0 +1,13 @@
+{
+  "sitio": "Cabañas Luján",
+  "titulo_corto": "Cabañas Luján",
+  "responsable": "Cabañas Luján",
+  "domicilio": "Los Damascos esq. Los Perales y Los Guindos, Potrero de los Funes, San Luis, Argentina",
+  "email": "cabaniaslujan@gmail.com",
+  "telefono": "+54 9 266 477-1877",
+  "persona": "nosotros",
+  "formulario": false,
+  "btn": "btn-naranja",
+  "theme_color": "#5F7A4C",
+  "css": {"fondo": "var(--crema)", "fondo_hero": "var(--bosque)", "texto_hero": "#fff", "acento": "var(--naranja)", "muted": "var(--txt)", "titulos": "var(--ff-t)"}
+}

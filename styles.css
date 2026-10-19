@@ -198,7 +198,10 @@ p{margin:0}
 .potrero-foto figcaption{position:absolute;left:20px;bottom:20px;background:rgba(251,246,236,.94);color:var(--tinta);font-weight:700;font-size:.85rem;padding:8px 14px;border-radius:3px}
 
 /* promociones */
-.promo{background:var(--naranja);padding:46px 0;position:relative}
+.promo{background:var(--naranja);padding:46px 0;position:relative;z-index:2}
+.promo-sierra{position:absolute;left:0;width:100%;height:30px;fill:var(--naranja)}
+.promo-sierra.arriba{bottom:calc(100% - 1px)}
+.promo-sierra.abajo{top:calc(100% - 1px);transform:scale(-1,-1)}
 .promo-in{display:flex;align-items:center;gap:28px}
 .promo-in > i{font-size:54px;color:#fff;flex:none;filter:drop-shadow(2px 2px 0 #A35C00)}
 .promo h2{font-size:clamp(1.9rem,3vw,2.6rem);line-height:1.05;color:#fff;text-shadow:3px 3px 0 #A35C00}
